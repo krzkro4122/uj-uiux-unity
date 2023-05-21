@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ddb4c3530fee64ac4be6d4fa5aa1efe8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Red Hat Text
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: ba335e5953b2f4542a796d237dc05bd4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
