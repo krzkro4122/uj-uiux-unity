@@ -5,29 +5,88 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638202609940000000
-    m_Hash: 3001048312
+      ticks: 638203057550000000
+    m_Hash: 518067156
   m_LockFileStatus:
     m_FilePath: /Users/k.krol/rep/uj-uiux/New Unity Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638202610070000000
-    m_Hash: 1965097625
+      ticks: 638203057610000000
+    m_Hash: 436373441
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Packages
-m_EditorVersion: 2022.1.23f1 (9636b062134a)
+m_EditorVersion: 2022.2.20f1 (c5d806317f84)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@1.17.6
+- packageId: com.unity.ai.navigation@1.1.3
   testable: 0
   isDirectDependency: 1
-  version: 1.17.6
+  version: 1.1.3
   source: 1
-  resolvedPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Library/PackageCache/com.unity.collab-proxy@1.17.6
+  resolvedPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Library/PackageCache/com.unity.ai.navigation@1.1.3
+  assetPath: Packages/com.unity.ai.navigation
+  name: com.unity.ai.navigation
+  displayName: AI Navigation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: High-level NavMesh components for building and using NavMeshes at
+    runtime and at edit time.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.1.3
+    compatible:
+    - 1.1.3
+    recommended: 1.1.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
+    revision: 21cc07be635247d730f8d1ef7c1987e222159a45
+    path: 
+  unityLifecycle:
+    version: 1.1.3
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.collab-proxy@2.0.4
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.4
+  source: 1
+  resolvedPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Library/PackageCache/com.unity.collab-proxy@2.0.4
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -37,10 +96,9 @@ m_ResolvedPackages:
     url: 
   category: Editor
   type: asset
-  description: The Version Control package gives you the ability to use either Collaborate
-    or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
-    (beta), a Plastic SCM subscription is required. Learn more about how you can
-    get started for free by visiting plasticscm.com.
+  description: The package gives you the ability to use Unity Version Control in
+    the Unity editor. To use Unity Version Control, a subscription is required. Learn
+    more about how you can get started for free by visiting plasticscm.com.
   status: 0
   errors: []
   versions:
@@ -112,35 +170,14 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.17.6
-    - 1.17.7
-    - 2.0.0-preview.6
-    - 2.0.0-preview.8
-    - 2.0.0-preview.15
-    - 2.0.0-preview.17
-    - 2.0.0-preview.20
-    - 2.0.0-preview.21
-    - 2.0.0-preview.22
-    - 2.0.0
-    - 2.0.1
-    - 2.0.3
     - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.17.7
-  dependencies:
-  - name: com.unity.services.core
-    version: 1.0.1
-  resolvedDependencies:
-  - name: com.unity.services.core
-    version: 1.6.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
+    recommended: 2.0.4
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
   keywords:
   - backup
   - cloud
@@ -148,6 +185,7 @@ m_ResolvedPackages:
   - collaborate
   - collaboration
   - control
+  - devops
   - plastic
   - plasticscm
   - source
@@ -165,23 +203,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638009928240000000
-  documentationUrl: 
+  datePublishedTicks: 638176024310000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 3744f24b80468ef1336fbc234c93625c4a6287b0
+    revision: dc15ef2ed609e8c19d0525a46c5bf7dd78df8432
     path: 
   unityLifecycle:
-    version: 1.17.6
+    version: 2.0.4
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.16
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.ide.rider@3.0.21
   testable: 0
   isDirectDependency: 1
-  version: 3.0.16
+  version: 3.0.21
   source: 1
-  resolvedPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Library/PackageCache/com.unity.ide.rider@3.0.16
+  resolvedPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Library/PackageCache/com.unity.ide.rider@3.0.21
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -235,12 +278,9 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     compatible:
-    - 3.0.16
-    - 3.0.17
-    - 3.0.18
-    - 3.0.20
     - 3.0.21
-    verified: 3.0.21
+    recommended: 3.0.21
+    deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -258,23 +298,28 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638011833630000000
-  documentationUrl: 
+  datePublishedTicks: 638175749180000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 9b718d58b8f7a34e564f2c79af6d2ca788e929d4
+    revision: bb7732dcafe867368246b7661dda05368b74dd8e
     path: 
   unityLifecycle:
-    version: 3.0.16
+    version: 3.0.21
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.16
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.ide.visualstudio@2.0.18
   testable: 0
   isDirectDependency: 1
-  version: 2.0.16
+  version: 2.0.18
   source: 1
-  resolvedPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Library/PackageCache/com.unity.ide.visualstudio@2.0.16
+  resolvedPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Library/PackageCache/com.unity.ide.visualstudio@2.0.18
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -313,10 +358,9 @@ m_ResolvedPackages:
     - 2.0.17
     - 2.0.18
     compatible:
-    - 2.0.16
-    - 2.0.17
     - 2.0.18
-    verified: 2.0.18
+    recommended: 2.0.18
+    deprecated: []
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -340,17 +384,22 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637914298680000000
-  documentationUrl: 
+  datePublishedTicks: 638173205920000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: c01855ef6461b821ab0226135e96a4ee86de96be
+    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
     path: 
   unityLifecycle:
-    version: 2.0.16
+    version: 2.0.18
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 1
@@ -388,7 +437,8 @@ m_ResolvedPackages:
     - 1.2.5
     compatible:
     - 1.2.5
-    verified: 1.2.5
+    recommended: 1.2.5
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -413,6 +463,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
@@ -487,7 +542,8 @@ m_ResolvedPackages:
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    verified: 1.1.33
+    recommended: 1.1.33
+    deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -526,6 +582,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.1.33
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.textmeshpro@3.0.6
   testable: 0
   isDirectDependency: 1
@@ -658,7 +719,9 @@ m_ResolvedPackages:
     - 3.2.0-pre.3
     - 3.2.0-pre.4
     - 4.0.0-pre.1
-    verified: 3.0.6
+    - 4.0.0-pre.2
+    recommended: 3.0.6
+    deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -696,12 +759,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.6
     nextVersion: 
-- packageId: com.unity.timeline@1.7.2
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.timeline@1.7.4
   testable: 0
   isDirectDependency: 1
-  version: 1.7.2
+  version: 1.7.4
   source: 1
-  resolvedPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Library/PackageCache/com.unity.timeline@1.7.2
+  resolvedPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Library/PackageCache/com.unity.timeline@1.7.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -797,13 +865,12 @@ m_ResolvedPackages:
     - 1.8.1
     - 1.8.2
     compatible:
-    - 1.7.2
-    - 1.7.3
     - 1.7.4
     - 1.8.0
     - 1.8.1
     - 1.8.2
-    verified: 1.7.4
+    recommended: 1.7.4
+    deprecated: []
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -838,17 +905,22 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638019579250000000
-  documentationUrl: 
+  datePublishedTicks: 638143790870000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 40b193547031a6a97c1fc47f71900f6690c33c6b
+    revision: 1f458a5d3f2bc66f0c1182feeaa9fcea4e8b1496
     path: 
   unityLifecycle:
-    version: 1.7.2
+    version: 1.7.4
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -876,7 +948,8 @@ m_ResolvedPackages:
     - 3.0.0-exp.1
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -913,12 +986,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.visualscripting@1.7.8
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.visualscripting@1.8.0
   testable: 0
   isDirectDependency: 1
-  version: 1.7.8
+  version: 1.8.0
   source: 1
-  resolvedPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Library/PackageCache/com.unity.visualscripting@1.7.8
+  resolvedPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Library/PackageCache/com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -962,10 +1040,10 @@ m_ResolvedPackages:
     - 1.8.0-pre.1
     - 1.8.0
     compatible:
-    - 1.7.8
-    - 1.8.0-pre.1
     - 1.8.0
-    verified: 1.7.8
+    recommended: 1.8.0
+    deprecated:
+    - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -991,17 +1069,22 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637878097330000000
+  datePublishedTicks: 638060044680000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 775a560e6602f51ff05aca02264f8bed4d415fd3
+    revision: 0de66378b19e990494d98f39ecc2b6aa5ac65351
     path: 
   unityLifecycle:
-    version: 1.7.8
+    version: 1.8.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1026,7 +1109,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1051,6 +1135,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1074,7 +1163,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1099,6 +1189,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1123,7 +1218,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1148,6 +1244,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1172,7 +1273,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1197,6 +1299,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1221,7 +1328,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1246,6 +1354,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1270,7 +1383,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -1299,6 +1413,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1323,7 +1442,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -1356,6 +1476,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1381,7 +1506,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1406,6 +1532,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1430,7 +1561,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1455,6 +1587,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1479,7 +1616,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1504,6 +1642,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1528,7 +1671,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1553,6 +1697,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1577,7 +1726,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1602,6 +1752,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1626,7 +1781,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1651,6 +1807,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1675,7 +1836,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.imageconversion
     version: 1.0.0
@@ -1704,6 +1866,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1728,7 +1895,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1753,6 +1921,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1777,7 +1950,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -1810,6 +1984,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1833,7 +2012,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics2d
     version: 1.0.0
@@ -1862,6 +2042,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1886,7 +2071,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1911,6 +2097,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -1935,7 +2126,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -1943,16 +2135,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   keywords: []
   registry:
@@ -1976,6 +2164,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2000,7 +2193,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2025,6 +2219,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2049,7 +2248,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2082,6 +2282,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2106,7 +2311,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2131,6 +2337,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2155,7 +2366,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.assetbundle
     version: 1.0.0
@@ -2188,6 +2400,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2212,7 +2429,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2245,6 +2463,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2269,7 +2492,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2302,6 +2526,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2326,7 +2555,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2375,6 +2605,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2399,7 +2634,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2428,6 +2664,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2452,7 +2693,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -2489,6 +2731,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2513,7 +2760,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -2552,6 +2800,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2576,7 +2829,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2601,6 +2855,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -2625,7 +2884,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2662,6 +2922,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
@@ -2686,7 +2951,8 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -2715,66 +2981,11 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.modules.uielementsnative@1.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.0.0
-  source: 2
-  resolvedPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Library/PackageCache/com.unity.modules.uielementsnative@1.0.0
-  assetPath: Packages/com.unity.modules.uielementsnative
-  name: com.unity.modules.uielementsnative
-  displayName: UIElements Native
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    verified: 1.0.0
-  dependencies:
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
   isDirectDependency: 0
@@ -2808,7 +3019,8 @@ m_ResolvedPackages:
     - 1.0.6
     - 2.0.2
     - 2.0.3
-    verified: 1.0.6
+    recommended: 1.0.6
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -2836,124 +3048,8 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
-- packageId: com.unity.services.core@1.6.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.6.0
-  source: 1
-  resolvedPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Library/PackageCache/com.unity.services.core@1.6.0
-  assetPath: Packages/com.unity.services.core
-  name: com.unity.services.core
-  displayName: Services Core
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: 'This package defines common components used by multiple Game Service
-    packages.
-
-    These are standardized and aim to unify the overall experience
-    of working with Game Services SDK.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.6.0
-    compatible:
-    - 1.6.0
-    verified: 1.6.0
-  dependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 815a0c96703c69956fde4fc798e35dd8d0cc3af1
-    path: 
-  unityLifecycle:
-    version: 1.6.0
-    nextVersion: 
-- packageId: com.unity.nuget.newtonsoft-json@3.0.2
-  testable: 0
-  isDirectDependency: 0
-  version: 3.0.2
-  source: 1
-  resolvedPath: /Users/k.krol/rep/uj-uiux/New Unity Project/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2
-  assetPath: Packages/com.unity.nuget.newtonsoft-json
-  name: com.unity.nuget.newtonsoft-json
-  displayName: Newtonsoft Json
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: library
-  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
-    synced to version 13.0.1.
-
-
-    This package is used for advanced json serialization
-    and deserialization. Most Unity users will be better suited using the existing
-    json tools built into Unity.
-
-    To avoid assembly clashes, please use this
-    package if you intend to use Newtonsoft Json.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 3.0.2
-    compatible:
-    - 3.0.2
-    verified: 3.0.2
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-    revision: 8f66870a71ad3f2cdd46330b5c482dfd138ffc64
-    path: 
-  unityLifecycle:
-    version: 3.0.2
-    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
